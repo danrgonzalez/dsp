@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists are like arrays in Java. The lists can be modified at any time. Items can be deleted and inserted. Lists are mutable. Tuples, are immutable. They are enclosed by parenthesis and the items in the tuples exist as a whole. Although they can be sliced and concatenated. Order matters in tuples. Tuples can work as primary keys in dictionaries because of their immutable nature. Lists are not guaranteed to be unique. 
 
 ---
 
@@ -20,7 +20,13 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lists and sets are similar in that they contain items. However, sets contain unordered, unique and immutable items. Tuples can be added to sets but not lists. Examples:
+
+>>> cities = set(("Paris", "Lyon", "London","Berlin","Paris","Birmingham"))
+>>> cities
+set(['Paris', 'Birmingham', 'Lyon', 'London', 'Berlin'])
+
+Since sets contain unique object, they can be faster in finding an element. Whereas list can contain duplicate objects and therefore can take longer to find a particular object. 
 
 ---
 
