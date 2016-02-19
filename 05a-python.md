@@ -46,9 +46,8 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> map(func, seq) applies the func to all elements in seq and returns a new list with the elements modified by func. 
 >> filter(function, list) eliminates elements from a list that do not return true via the function. 
-
-A set comprehension example: s = {v for v in 'ABCDABCD' if v not in 'CB'} --> {'A','D'}
-A dictionary compresion example: d = {d: n**2 for n in range(5)}
+>> A set comprehension example: s = {v for v in 'ABCDABCD' if v not in 'CB'} --> {'A','D'}
+>> A dictionary compresion example: d = {d: n**2 for n in range(5)}
 
 ---
 
@@ -63,7 +62,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> response added to file
 
 b.  
 ```
@@ -71,7 +70,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> response added to file
 
 c.  
 ```
@@ -79,7 +78,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+>> response added to file
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
