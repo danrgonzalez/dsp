@@ -29,6 +29,12 @@ If you intend to use a graphical editor that doesn't run in a terminal, nano mig
 Both Emacs and vim have built-in interactive tutorials that you can try.
 
 
+<<<<<<< HEAD
+=======
+What terminal editor will you use? How did you make your decision?
+
+>> Vim. Needs some practive but looks easy to use. 
+>>>>>>> a3f22bddebf4427b43b8c5253a7bbce064ef69f1
 
 ---
 
@@ -67,6 +73,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I've used PyCharm in the past and most recently the spyder install with anaconda. So I will stick with these. I've changed text colors for readability. 
 
  
