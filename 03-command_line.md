@@ -37,7 +37,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > ls, lists the items in the current working directory, -a, lists ALL items, -l, dispays access configurations, and ls -lh, add a size indicator
+> > ls, lists the items in the current working directory, -a, lists ALL items, -l, dispays access configurations, and ls -lh, add a size indicator. The -lah combines all 3 features. -t displays newest files first based on timestamp. -Glp displays directories with a /, l lisplays the long format listing and g add color to the directories
 
 ---
 
@@ -45,7 +45,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > I usually use ls -la
 
 ---
 
