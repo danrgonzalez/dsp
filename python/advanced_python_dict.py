@@ -21,6 +21,7 @@ for i in splitNames:
 
 lastNamesUnique = sorted(set(lastNames))
 
+
 faculty_dict = {}
 for index, row in faculty.iterrows():
     faculty_dict[row['name']] = [row['degree'],row['title'], row['email'], lastNames[index]]

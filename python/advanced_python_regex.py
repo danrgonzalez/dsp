@@ -2,24 +2,14 @@ import csv
 import pandas as pd
 import re
 
-
-'''parsed_data = []
-
-def read_data(data):
-   with open(data, 'rb') as csvfile:
-       reader = csv.reader(csvfile)
-       for row in reader:
-          print row
-          parsed_data.append(row)
-          
-#read_data('faculty.csv')'''
-
 faculty = pd.read_csv('faculty.csv',header = 0)
 
-print faculty
+#print faculty
 #print faculty.head()
 
 #degrees = faculty.degree
+
+print "Q1"
 
 degreeList = []
 for index, row in faculty.iterrows():
@@ -52,11 +42,12 @@ for i in range(0,len(uniqueDegrees)):
         if (uniqueDegrees[i] == j):
             count[i] += 1
 
+#response
 for i in range(0,len(uniqueDegrees)):
     print uniqueDegrees[i], count[i]
 
 
-
+print "Q2"
 
 titleList = []
 for index, row in faculty.iterrows():
@@ -72,17 +63,21 @@ for i in range(0,len(titleListSet)):
         if (titleListSet[i] == j):
             titleCount[i] += 1
 
+#response
 for i in range(0,len(titleListSet)):
     print titleListSet[i], titleCount[i]
 
 
-
+print "Q3"
 
 emailList = []
 for index, row in faculty.iterrows():
     #print index, row['email']
     emailList.append(row['email'])
 
+print emailList
+
+print "Q4"
 domainList = []
 for i in emailList:
     for c in range(0,len(i)):
@@ -96,7 +91,8 @@ for i in range(0,len(domainListSet)):
     for j in domainList:
         if(domainListSet[i] == j):
             domainListCount[i] += 1
-            
+
+#response      
 for i in range(0,len(domainListSet)):
     print domainListSet[i], domainListCount[i]
             
