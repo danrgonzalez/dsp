@@ -1,6 +1,7 @@
 # Matrix Algebra
 
 import numpy as np
+from numpy import linalg as LA
 
 A = np.matrix([[1, 2, 3], [2, 7, 4]])
 
@@ -27,7 +28,7 @@ print u+v
 print u-v
 print 6*u
 print u.dot(v.T)
-print u.dot(u.T)
+print LA.norm(u)
 
 #print A+C
 print A-C.T
